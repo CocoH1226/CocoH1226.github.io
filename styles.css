@@ -1,0 +1,188 @@
+/* <weight>: Use a value from 400 to 900
+ <uniquifier>: Use a unique and descriptive class name */
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black !important;
+    color: #fff;
+}
+
+/*---------Menu----------*/
+.navbar-nav {
+  color: #fff
+}
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/*---------Main Body----------*/
+.tagline {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.375rem;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(150deg, #8A904C 10%, #E2BAE6 100%);
+}
+
+.introduction {
+  font-family: 'Playfair Display', serif;
+  font-size: xxx-large;
+  font-weight: 300;
+  color: #fff
+}
+
+.subtitle{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f16d1b;
+}
+
+.profile {
+  position: relative;
+  height: 30vw;
+  border-radius: 5vw;
+  max-height: 40rem;
+  max-width: 40rem;
+  border: 6px solid #fff;
+  box-shadow: 0 0 30px #E2BAE6;
+}
+
+/* Primary button */
+.btn.btn-primary {
+  background-color: #8A904C;
+  border-color: #000;
+}
+.btn.btn-primary:hover {
+  background-color: #bdcbe0;
+  border-color: #bdcbe0;
+  color: #000; /* hover contrast */
+}
+
+/* Outline-dark button*/
+.btn.btn-outline-dark {
+  background-color: #E2BAE6;
+  border-color: #000;
+}
+.btn.btn-outline-dark:hover {
+  background-color: #ff6b2f;
+  border-color: #ff6b2f;
+  color: #000;
+}
+
+/*---------About ----------*/
+
+.about-copy {
+  font-family: 'Playfair Display', serif;
+  color:#fff;
+  font-size: 2.6rem;
+  line-height: 1.94;
+}
+.about-copy:hover {
+  font-family: 'Playfair Display', serif;
+  color:#E2BAE6;
+  font-size: 2.8rem;
+  line-height: 1.8;
+}
+
+.about-copy a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+.hover-note {
+  color:#bdcbe0;
+  opacity: 0.8;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+/*-------------Footer-------------*/
+footer{
+  font-family:'Playfair Display', serif;
+  font-size: larger;
+  color: #fff !important;
+}
+
+.col-auto a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*-------------Project-------------*/
+/*General Characteristics*/
+.click-note {
+  color:#bdcbe0;
+  opacity: 0.8;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+.project-card {
+  display:block; padding:1rem; border-radius:12px;
+  background:#8A904C;
+  color:inherit; text-decoration:none; transition:transform 180ms ease, box-shadow 180ms ease;
+}
+
+.project-card:hover {
+  transform:translateY(-6px) scale(1.02);
+  box-shadow:0 10px 20px rgba(253, 231, 248, 0.623);
+}
+
+.project-img {
+  width: 50%;
+  max-height: 420px; 
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.project-card-title {
+  font-family: "Playfair Display", serif;
+  letter-spacing:0.04em;
+}
+.project-card-body {
+  margin-top: 1.25rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/*Individual effects*/
+.project-card { margin-bottom: 1.5rem;}
+
+.project-card h4 {color: #00000089;}
+
+.project-card--FOMC {
+  background: #ff6b2f;
+}
+.project-card--art {
+  background: #E2BAE6;
+}
+
+/*-------------Resume-------------*/
+.rl-title {
+  font-family:'Playfair Display', serif;
+  font-size: larger;
+}
+section .educ {
+  color: #8A904C !important;
+}
+
+/*-------------About Design-------------*/
+
+.about-design {
+  font-size:x-large;
+  color: #fff;
+  text-align: left;
+}
+.about-design:first-of-type {
+  margin-top: 40px;
+}
+
+.AIeval {
+  color:#bdcbe0;
+}
